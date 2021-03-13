@@ -1,5 +1,9 @@
 # Object-Oriented-Programming-Team-Profile-Generator
 
+## Description
+A team profile generator for coworkers details.
+Employees include interns, engineers, and managers.
+
 ## User Story
 
 ```md
