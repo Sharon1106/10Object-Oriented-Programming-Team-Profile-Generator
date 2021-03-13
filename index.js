@@ -1,3 +1,5 @@
+//RUNS THE APPLICATION//
+
 // import classes from other files
 
 
