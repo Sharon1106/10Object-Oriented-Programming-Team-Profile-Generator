@@ -1,0 +1,22 @@
+{
+  "name": "10object-oriented-programming-team-profile-generator",
+  "version": "1.0.0",
+  "description": "## Description A team profile generator for coworkers. Employees include interns, engineers, and managers.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sharon1106/10Object-Oriented-Programming-Team-Profile-Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sharon1106/10Object-Oriented-Programming-Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/Sharon1106/10Object-Oriented-Programming-Team-Profile-Generator#readme"
+}
