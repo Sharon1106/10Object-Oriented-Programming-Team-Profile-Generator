@@ -1,10 +1,13 @@
 //RUNS THE APPLICATION//
-
 // import classes from other files
+const Employee = require('./lib/Employee');
+const Engineer = require('./lib/Engineer');
+const Intern = require('./lib/Intern');
+const Manager = require('./lib/Manager');
 
-
-// require enquirer to get answers 
-
+// require enquirer to get answers and fs to read and write file
+const inquirer = require('inquirer');
+const fs = require('fs');
 
 // based on answers call on constructor to create a new manager, intern, engineer 
 
@@ -24,7 +27,7 @@
 
 
 
-//1//create classes for each so those tests pass 
+//1//create classes for each so those tests pass//*
 
 //2//then index.js write code and use inquirer to  get answers 
 
