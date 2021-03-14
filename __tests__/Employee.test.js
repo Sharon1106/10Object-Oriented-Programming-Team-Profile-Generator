@@ -1,13 +1,23 @@
+//imports our test function
 const Employee = require("../lib/Employee");
 
+// test + what the function is doing
 test("Can instantiate Employee instance", () => {
   const e = new Employee();
+  // expect function instead of (if,else)
   expect(typeof(e)).toBe("object");
 });
 
+  // POSITIVE TEST
 test("Can set name via constructor arguments", () => {
+
+  //1/ ARRANGE/ sets up the values that will be passed in and returned 
   const name = "Alice";
+
+  //2/ ACT/ call the function that we're testing
   const e = new Employee(name);
+
+  //3/ ASSERT/ check to make sure that the function acted as we expected
   expect(e.name).toBe(name);
 });
 
