@@ -14,8 +14,9 @@ console.log("Please enter your coworkers info to generate team");
 // empty employee array
 const employees = [];
 
+// function that runs after initializing
 function runApp() {
-  startHtml();
+  // startHtml();
   addWorker();
 }
 
@@ -45,23 +46,22 @@ function addWorker() {
     name: 'role'
   }])
 
-  .then(function({name, id, email, role}) {
-    // based on type of worker is chosen prompt questions 
-    let roleChosen = "";
-    
-      if(role = "Enginer") {
+  .then(({ name, id, email, role }) => {
+      // based on type of worker is chosen prompt questions 
+      let roleChosen = "";
+
+      if (role = "Enginer") {
         roleChosen = "Github username";
 
-      }else if(role = "Intern") {
+      } else if (role = "Intern") {
         roleChosen = "School name";
 
-      }else {
+      } else {
         // for manager
         roleChosen = "Office phone number";
       }
       inquirer.prompt([{
-
-        type:'input',
+        type: 'input',
         message: `What is your coworker's ${roleChosen} `,
         name: "roleChosen"
       },
@@ -71,39 +71,39 @@ function addWorker() {
         choices: ["yes", "no"],
         name: "moreWorkers"
       }])
-      
-      // adds new worker
-      .then(function({roleChosen, moreWorkers}) {
-        let newWorker;
 
-          if(role === "Engineer") {
-            newWorker = new Engineer(name, id, email, roleChosen);
+        // adds new worker
+        .then(({ roleChosen, moreWorkers }) => {
+            let newWorker;
 
-          }else if(role === "Intern") {
-            newWorker = new Intern(name, id, email, roleChosen);
+            if (role === "Engineer") {
+              newWorker = new Engineer(name, id, email, roleChosen);
 
-          }else {
-            newWorker = new Manager(name, id, email, roleChosen);
-          }
-          
-          //push new workers into empty array and html
-          employees.push(newWorker);
+            } else if (role === "Intern") {
+              newWorker = new Intern(name, id, email, roleChosen);
 
-          addHtml(newWorker)
-            .then(function() {
-              
-              if(moreWorkers === "yes") {
-                addWorker();
+            } else {
+              newWorker = new Manager(name, id, email, roleChosen);
+            }
 
-                //when no is chosen
-              }else {
+            //push new workers into empty array and html
+            employees.push(newWorker);
 
-                //generates an html file with team members info on cards on html 
-                finishHtml();
-              }
-            });
-      });
-  });
+            addHtml(newWorker)
+              .then(() => {
+
+                  if (moreWorkers === "yes") {
+                    addWorker();
+
+                    //when no is chosen
+                  } else {
+
+                    //html file with team members info on cards on html 
+                    finishHtml();
+                  }
+                });
+          });
+    });
 }
 
 
@@ -116,7 +116,7 @@ function addWorker() {
 
 //1//create classes for each so those tests pass//*
 
-//2//then index.js write code and use inquirer to  get answers 
+//2//then index.js write code and use inquirer to  get answers//*
 
 //3// based on those answers call constructor to create new inter, manager, engineer 
 
