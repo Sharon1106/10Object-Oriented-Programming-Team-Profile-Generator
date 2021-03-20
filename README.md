@@ -3,6 +3,7 @@
 ## Description
 A team profile generator for coworkers.
 Employees include interns, engineers, and managers.
+Still in progress...
 
 ## User Story
 
