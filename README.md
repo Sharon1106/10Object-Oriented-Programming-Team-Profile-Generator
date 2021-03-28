@@ -23,6 +23,7 @@ SO THAT I have quick access to their emails and GitHub profiles
   
   ## Installation
   Installation instructions: Once repo is cloned, run npm install.
+  The team profile page will be rendered in the dist/ folder.
 
   ## Usage 
  [Walkthrough-Video](https://drive.google.com/file/d/17vqqy4XrghY_7fA9L2BEJYjxIgDT2Xea/view)
