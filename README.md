@@ -1,7 +1,7 @@
 # Object-Oriented-Programming-Team-Profile-Generator   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-A team profile generator for managers to track their info like emails and github profiles.
+A team profile generator for managers to track their employees info like emails and github profiles.
 Employees include interns, engineers, and managers.
 
   ## User Story
