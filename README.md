@@ -27,7 +27,7 @@ SO THAT I have quick access to their emails and GitHub profiles
 
   ## Usage 
  [Walkthrough-Video](https://drive.google.com/file/d/17vqqy4XrghY_7fA9L2BEJYjxIgDT2Xea/view)
-![Team Profile2](https://user-images.githubusercontent.com/30086519/112740428-6d975f00-8f29-11eb-94f6-199531504fe2.png)
+![MyTeam](https://user-images.githubusercontent.com/30086519/113645789-06b62c00-9634-11eb-90df-4d9d3674667b.png)
   
   ## Tests
   Run npm test
