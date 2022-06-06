@@ -22,7 +22,7 @@ SO THAT I have quick access to their emails and GitHub profiles
   * [Questions](#Questions)
   
   ## Installation
-  Installation instructions: Once repo is cloned, run npm install.
+  Installation instructions: Once repo is cloned, run `npm install`.
   The team profile page will be rendered in the dist/ folder.
 
   ## Usage 
@@ -30,7 +30,7 @@ SO THAT I have quick access to their emails and GitHub profiles
 ![MyTeam](https://user-images.githubusercontent.com/30086519/113645789-06b62c00-9634-11eb-90df-4d9d3674667b.png)
   
   ## Tests
-  Run npm test
+  Run `npm test`
 ![tests](https://user-images.githubusercontent.com/30086519/112739289-9b77a600-8f1f-11eb-91a2-3b9df286ac9d.png)
   ## Built with
  |HTML| CSS | Material Design Bootstrap | Node.js | inquirer | fs | jest |
