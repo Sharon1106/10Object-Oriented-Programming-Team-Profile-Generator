@@ -1,7 +1,7 @@
 # Team Profile Generator   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-A team profile generator for managers to track their employees info like emails and github profiles.
+A team profile generator for managers to track their employees info like emails and github profiles. Usind Node.js.
 Employees include interns, engineers, and managers.
 
   ## User Story
@@ -33,7 +33,7 @@ SO THAT I have quick access to their emails and GitHub profiles
   Run `npm test`
 ![tests](https://user-images.githubusercontent.com/30086519/112739289-9b77a600-8f1f-11eb-91a2-3b9df286ac9d.png)
   ## Built with
- |HTML| CSS | Material Design Bootstrap | Node.js | inquirer | fs | jest |
+ | HTML | CSS | Material Design Bootstrap | Node.js | inquirer | fs | jest |
 
   ## License 
   This project is licensed under: MIT | https://opensource.org/licenses/MIT
